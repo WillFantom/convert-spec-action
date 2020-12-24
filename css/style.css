@@ -1,0 +1,42 @@
+.title {
+  visibility: hidden;
+}
+
+h1 {
+  color: #b5121b;
+  font-family: 'Ubuntu', bold;
+}
+
+h2, h3, h4 {
+  color: #b5121b;
+  font-family: 'Ubuntu', bold;
+  text-indent: 10px;
+  border-left: 5px solid #b5121b;
+}
+
+p {
+  color: #555656;
+  font-family: 'Ubuntu';
+}
+
+code {
+  color: #b5121b;
+  font-family: 'Ubuntu mono';
+  font-weight: bold;
+}
+
+.sourceCode {
+  background-color: #bec0c2;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+blockquote p {
+  color: #64606c;
+  font-family: 'Ubuntu light', italic;
+  font-style: italic;
+  font-size: 90%;
+  border-left: 5px solid #64606c;
+  text-indent: 3px;
+  padding-left: 10px;
+}

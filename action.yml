@@ -1,0 +1,15 @@
+name: 'Lancaster Spec Converter'
+description: 'Convert Markdown CW Specs to PDFs for Moodle uploads'
+inputs:
+  spec-directory:  # id of input
+    description: 'folder path that contains the moodle spec in markdown form'
+    required: false
+    default: 'moodle'
+outputs:
+  count: # id of output
+    description: 'the number of md files converted to pdfs'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.spec-directory }}
